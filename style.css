@@ -16,6 +16,9 @@ h2{
 h3{
     font-family: 'Titillium Web', serif;
 }
+h4{
+    font-family: 'Titillium Web', serif;
+}
 
 section{
     padding: 100px 0;
@@ -108,6 +111,32 @@ section{
 }
 
 
+.education-cards{
+    display: flex;
+    padding: 0 60px;
+}
+.edu-card{
+    width: 50%;
+    background: whitesmoke;
+    background: linear-gradient(to right bottom, white, whitesmoke, rgb(235, 235, 235));
+    border-radius: 10px;
+    border-left: 7px solid transparent;
+    box-shadow: 0 0 50px rgb(190, 190, 190);
+    margin: 40px;
+    padding: 20px 30px;
+}
+.edu-card.first-edu{
+    border-image: linear-gradient(rgb(202, 0, 0), rgb(255, 138, 71)) 1;
+}
+.edu-card.second-edu{
+    border-image: linear-gradient(rgb(153, 0, 255), red) 1;
+}
+.edu-card h4{color: rgb(219, 33, 0);}
+
+
+
+
+
 .experience-container .heading{
     text-align: center;
     font-size: 50px;
@@ -116,38 +145,38 @@ section{
     display: flex;
     padding: 0px 60px;
 }
-.card{
+.exp-card{
     width: 50%;
-    background: whitesmoke;
+    background: linear-gradient(to right bottom, white, whitesmoke, rgb(255, 226, 226));
     border-radius: 10px;
     box-shadow: 0 0 50px rgb(190, 190, 190);
     margin: 40px;
     padding: 20px 30px;
 }
-.card.first-exp{
+.exp-card.first-exp{
     border-left: 7px solid transparent;
     border-bottom: 7px solid transparent;
     border-right: 2px solid transparent;
     border-top: 2px solid transparent;
     border-image: linear-gradient(to right bottom, purple, tomato) 1;
 }
-.card.second-exp{
+.exp-card.second-exp{
     border-left: 2px solid transparent;
     border-bottom: 2px solid transparent;
     border-right: 7px solid transparent;
     border-top: 7px solid transparent;
     border-image: linear-gradient(to right bottom, #ff3c00, #aa0050, #c520e4) 1;
 }
-.card h2{
+.exp-card h2{
     font-size: 30px;
     font-family: 'Titillium Web', serif;
 }
-.card h3{
+.exp-card h3{
     font-size: 20px;
     color: #ff1a6e;
     font-family: 'Titillium Web', serif;
 }
-.card p{
+.exp-card p{
     font-size: 17px;
     text-align: justify;
 }
