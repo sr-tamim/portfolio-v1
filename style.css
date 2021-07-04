@@ -16,12 +16,16 @@ h2{
 h3{
     font-family: 'Titillium Web', serif;
 }
+h4{
+    font-family: 'Titillium Web', serif;
+}
 
 section{
     padding: 100px 0;
 }
 .home-container{
     display: flex;
+    align-items: center;
 }
 .home{
     width: 50%;
@@ -61,7 +65,7 @@ section{
     padding-left: 50px;
 }
 .home-img img{
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -69,13 +73,14 @@ section{
 .aboutMe{
     color: #da0050;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Zen Tokyo Zoo';
     font-weight: 400;
 }
 
 .dream-container{
     display: flex;
+    align-items: center;
 }
 .dream-container h1{
     font-size: 40px;
@@ -86,7 +91,7 @@ section{
     padding-right: 50px;
 }
 .dream-img img{
-    width: 80%;
+    width: 70%;
 }
 .dream-description{
     width: 50%;
@@ -105,7 +110,33 @@ section{
     background: linear-gradient(to right, #c520e4, #f7869d);
     padding: 10px 40px;
     border-radius: 10px;
+    box-shadow: 0 0 30px palevioletred;
 }
+
+
+.education-cards{
+    display: flex;
+    padding: 0 60px;
+}
+.edu-card{
+    width: 50%;
+    background: whitesmoke;
+    background: linear-gradient(to right bottom, white, whitesmoke, rgb(240, 240, 240));
+    border-left: 7px solid transparent;
+    box-shadow: 0 0 50px rgb(190, 190, 190);
+    margin: 40px;
+    padding: 20px 30px;
+}
+.edu-card.first-edu{
+    border-image: linear-gradient(rgb(202, 0, 0), rgb(255, 138, 71)) 1;
+}
+.edu-card.second-edu{
+    border-image: linear-gradient(rgb(153, 0, 255), red) 1;
+}
+.edu-card h4{color: rgb(219, 33, 0);}
+
+
+
 
 
 .experience-container .heading{
@@ -116,38 +147,37 @@ section{
     display: flex;
     padding: 0px 60px;
 }
-.card{
+.exp-card{
     width: 50%;
-    background: whitesmoke;
-    border-radius: 10px;
+    background: linear-gradient(to right bottom, white, whitesmoke, rgb(255, 225, 225));
     box-shadow: 0 0 50px rgb(190, 190, 190);
     margin: 40px;
     padding: 20px 30px;
 }
-.card.first-exp{
+.exp-card.first-exp{
     border-left: 7px solid transparent;
     border-bottom: 7px solid transparent;
     border-right: 2px solid transparent;
     border-top: 2px solid transparent;
     border-image: linear-gradient(to right bottom, purple, tomato) 1;
 }
-.card.second-exp{
+.exp-card.second-exp{
     border-left: 2px solid transparent;
     border-bottom: 2px solid transparent;
     border-right: 7px solid transparent;
     border-top: 7px solid transparent;
     border-image: linear-gradient(to right bottom, #ff3c00, #aa0050, #c520e4) 1;
 }
-.card h2{
+.exp-card h2{
     font-size: 30px;
     font-family: 'Titillium Web', serif;
 }
-.card h3{
+.exp-card h3{
     font-size: 20px;
     color: #ff1a6e;
     font-family: 'Titillium Web', serif;
 }
-.card p{
+.exp-card p{
     font-size: 17px;
     text-align: justify;
 }
