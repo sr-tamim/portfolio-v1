@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Zen+Tokyo+Zoo&family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Zen+Tokyo+Zoo&family=Tourney&family=Titillium+Web:wght@400;600&display=swap');
 
 body{
     font-family: 'Bona Nova', serif;
     margin: 0;
+    border-left: 15px solid transparent;
+    border-image: linear-gradient(red, rgb(221, 0, 221), rgb(255, 107, 70), rgb(255, 0, 0)) 1;
+}
+h1{
+    font-family: 'Titillium Web', serif;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Titillium Web', serif;
+}
+h3{
+    font-family: 'Titillium Web', serif;
 }
 
 section{
-    margin: 150px 0;
+    padding: 100px 0;
 }
 .home-container{
     display: flex;
@@ -57,14 +69,15 @@ section{
 .aboutMe{
     color: #da0050;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Zen Tokyo Zoo';
     font-weight: 400;
 }
+
 .dream-container{
     display: flex;
 }
-.dream-container .heading{
+.dream-container h1{
     font-size: 40px;
 }
 .dream-img{
@@ -77,7 +90,7 @@ section{
 }
 .dream-description{
     width: 50%;
-    padding: 50px;
+    padding: 20px 50px;
 }
 .dream-description p{
     width: 90%;
@@ -92,4 +105,49 @@ section{
     background: linear-gradient(to right, #c520e4, #f7869d);
     padding: 10px 40px;
     border-radius: 10px;
+}
+
+
+.experience-container .heading{
+    text-align: center;
+    font-size: 50px;
+}
+.experience-cards{
+    display: flex;
+    padding: 0px 60px;
+}
+.card{
+    width: 50%;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(190, 190, 190);
+    margin: 40px;
+    padding: 20px 30px;
+}
+.card.first-exp{
+    border-left: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 2px solid transparent;
+    border-top: 2px solid transparent;
+    border-image: linear-gradient(to right bottom, purple, tomato) 1;
+}
+.card.second-exp{
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid transparent;
+    border-image: linear-gradient(to right bottom, #ff3c00, #aa0050, #c520e4) 1;
+}
+.card h2{
+    font-size: 30px;
+    font-family: 'Titillium Web', serif;
+}
+.card h3{
+    font-size: 20px;
+    color: #ff1a6e;
+    font-family: 'Titillium Web', serif;
+}
+.card p{
+    font-size: 17px;
+    text-align: justify;
 }
