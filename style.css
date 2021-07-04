@@ -30,7 +30,7 @@ section{
     font-size: 18px;
     text-align: justify;
     margin-bottom: 50px;
-    width: 80%;
+    width: 90%;
 }
 .home a{
     text-decoration: none;
@@ -49,7 +49,7 @@ section{
     padding-left: 50px;
 }
 .home-img img{
-    width: 70%;
+    width: 80%;
 }
 
 
@@ -73,19 +73,21 @@ section{
     padding-right: 50px;
 }
 .dream-img img{
-    width: 70%;
+    width: 80%;
 }
 .dream-description{
     width: 50%;
-    padding: 0 100px 50px 30px;
+    padding: 50px;
 }
 .dream-description p{
+    width: 90%;
     margin-bottom: 40px;
     text-align: justify;
 }
 .dream-description a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
     font-weight: bold;
     background: linear-gradient(to right, #c520e4, #f7869d);
     padding: 10px 40px;
