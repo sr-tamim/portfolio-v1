@@ -25,6 +25,7 @@ section{
 }
 .home-container{
     display: flex;
+    align-items: center;
 }
 .home{
     width: 50%;
@@ -64,7 +65,7 @@ section{
     padding-left: 50px;
 }
 .home-img img{
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -72,13 +73,14 @@ section{
 .aboutMe{
     color: #da0050;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Zen Tokyo Zoo';
     font-weight: 400;
 }
 
 .dream-container{
     display: flex;
+    align-items: center;
 }
 .dream-container h1{
     font-size: 40px;
@@ -89,7 +91,7 @@ section{
     padding-right: 50px;
 }
 .dream-img img{
-    width: 80%;
+    width: 70%;
 }
 .dream-description{
     width: 50%;
@@ -108,6 +110,7 @@ section{
     background: linear-gradient(to right, #c520e4, #f7869d);
     padding: 10px 40px;
     border-radius: 10px;
+    box-shadow: 0 0 30px palevioletred;
 }
 
 
@@ -118,8 +121,7 @@ section{
 .edu-card{
     width: 50%;
     background: whitesmoke;
-    background: linear-gradient(to right bottom, white, whitesmoke, rgb(235, 235, 235));
-    border-radius: 10px;
+    background: linear-gradient(to right bottom, white, whitesmoke, rgb(240, 240, 240));
     border-left: 7px solid transparent;
     box-shadow: 0 0 50px rgb(190, 190, 190);
     margin: 40px;
@@ -147,8 +149,7 @@ section{
 }
 .exp-card{
     width: 50%;
-    background: linear-gradient(to right bottom, white, whitesmoke, rgb(255, 226, 226));
-    border-radius: 10px;
+    background: linear-gradient(to right bottom, white, whitesmoke, rgb(255, 225, 225));
     box-shadow: 0 0 50px rgb(190, 190, 190);
     margin: 40px;
     padding: 20px 30px;
