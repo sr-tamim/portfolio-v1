@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Zen+Tokyo+Zoo&family=Tourney&display=swap');
 
 body{
     font-family: 'Bona Nova', serif;
@@ -30,6 +30,7 @@ section{
     font-size: 18px;
     text-align: justify;
     margin-bottom: 50px;
+    width: 80%;
 }
 .home a{
     text-decoration: none;
@@ -52,6 +53,14 @@ section{
 }
 
 
+
+.aboutMe{
+    color: #da0050;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Zen Tokyo Zoo';
+    font-weight: 400;
+}
 .dream-container{
     display: flex;
 }
